@@ -1,0 +1,84 @@
+.main-header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(255,255,255, .2);
+    z-index: 999;
+}
+.about-home{
+    position:relative;
+    width:100%;
+    height:100vh;
+    /* background */
+    background:linear-gradient(rgba(15, 33, 13, .7), rgba(15, 33, 133, .7)),url('../productImages/testi3.jpg');
+    background-blend-mode:hard-light;
+background-position:bottom;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.about{
+    background-color: #fff;
+}
+.about-home .row{
+    min-height: 100vh;
+    text-align: center;
+}
+.about-home .aboutContent{
+width: 100%;
+}
+.about-home .aboutContent h2{
+    font-size: 3rem;
+text-transform: uppercase;
+color: white;
+font-weight: 600;
+}
+.aboutContent p{
+
+    font-size: 1.2rem;
+    font-weight: 400;
+width: 70%;
+margin: 0 auto;
+color: #b8b8b8;
+}
+.about-home .btn{
+opacity: 1;
+margin: 1.2em auto; 
+}
+.logo a{
+    color: #fff;
+}
+.about-image{
+    height: 33em;
+    padding: 1rem 4.8rem;
+}
+.about-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .5em;
+}
+.about-text h2{
+    font-size: 2rem;
+    margin: 0 0 1.2rem;
+}
+.about-text p{
+    margin: 0 0 1rem;
+    font-weight: 400;
+    color: #777;
+
+}
+.about-text a.btn{
+    opacity: 1;
+    margin-top: 1.1rem;
+}
+
+.history p{
+    font-weight: 400;
+    width: 100%;
+    color: #777;
+    text-align: left;
+    line-height: 28px;
+margin-top: 2rem;
+}
