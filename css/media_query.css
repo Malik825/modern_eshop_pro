@@ -179,7 +179,7 @@ font-size:.8rem;
         box-shadow: 4px 10px 20px rgba(55, 52, 73, 0.4);
         background: #fff;
         border-radius: 4px;
-        padding: 2rem !important;
+        padding: 1.2rem !important;
         margin:0 auto;
         position: relative;
         transform: scale(0);
@@ -307,7 +307,9 @@ font-size:.8rem;
 }
 
 @media(max-width:457px) {
-
+.oderForm, .cart{
+    width:100%;
+}
 .home-text h3{
     width:100%;
     font-size:2.5rem;
