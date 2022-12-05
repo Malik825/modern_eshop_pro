@@ -58,8 +58,8 @@
         display: block;
     }
 
-    #lgNavIcons,
-    #lgIcon {
+    #lgNavIcons
+     {
         display: none;
     }
 
@@ -80,11 +80,13 @@
         width:100%;
         cursor: pointer;
         text-align: center;
-        background: #f7f7f7;
+        color: #fff;
+        background: var(--main);
     }
     .closeNav i{
+        color:#fff;
         font-size:1.1rem;
-
+        padding-right: 5rem;
     }
 
     .hamburger {
@@ -110,17 +112,31 @@
 }
 
 @media(max-width:900px) {
-      .main-header .brand {
+    .main-header .container{
+        width: 95% !important;
+    }  
+    .main-header .brand {
         width: 70%;
         flex: 0 0 70%;
         background:transparent;
+        display: flex;
+        justify-content: flex-start;
     }
     .brand i{
         display:none;
     }
-
+    .brand h3 > span{
+        display: none;
+    }
+    .brand h3 > small{
+        display: inline-block;
+    }
+.brand h2{
+    font-size: .6rem;
+}
  .advert-item h2{
     font-size:12px;
+    
  }   
   #testimonial-carousel {
         width: 100%;
@@ -235,7 +251,7 @@ font-size:.8rem;
         height:20rem;
     }
     .home-section{
-        padding:0 0 0 1.2rem;
+        /* padding:0 0 0 1.2rem; */
     }
     .home-section .btn{
         width:100%;

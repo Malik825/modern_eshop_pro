@@ -2288,6 +2288,13 @@ object-position: 0 10%;
 
 }
 
+    .brand h3 > span{
+        display: inline-block;
+    }
+    
+    .brand h3 > small{
+        display: none;
+    }
 .orderForm{
     position: fixed;
     top: 0;
