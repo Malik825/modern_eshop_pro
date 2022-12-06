@@ -101,7 +101,7 @@ img {
     padding:10px;
 }.section-title {
     width: fit-content;
-    background-color: var(--main);
+    background-color: var(--main2);
     padding: .8rem;
     font-size: 22px;
     display: flex;
@@ -1397,7 +1397,7 @@ section{
 .blog-date,
 .blog-links,
 .blog-text {
-    padding-left: 1rem;
+
 }
 
 .blog-image {
@@ -1433,6 +1433,11 @@ section{
 .blog-date {
     display: flex;
     padding: 1rem;
+flex-wrap: wrap;
+}
+.blog-text h3{
+    font-size: 1rem;
+
 }
 
 .links {
@@ -1963,7 +1968,7 @@ border-top: 1px solid rgba(255,255,255, .45);
 
 }
 .filter-buttons .buttons{
-    padding: 1rem 1rem;
+    padding: .5rem .8rem;
     margin:0 1rem;
     display: inline-block;
     color: #777;
@@ -1980,6 +1985,10 @@ border-top: 1px solid rgba(255,255,255, .45);
     color: #fff;
     font-size: .8rem;
     text-transform: uppercase;   
+}
+.product-item{
+    flex: 0 0 25%;
+    padding: 10px;
 }
    .product-item.hide {
                 display: none;
