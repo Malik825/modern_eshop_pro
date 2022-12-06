@@ -155,14 +155,14 @@ function updateTotal() {
     var cartBox = cartBoxes[i];
     var priceElement = cartBox.getElementsByClassName("cart-price")[0];
     var quantityElement = cartBox.getElementsByClassName("cart-quantity")[0];
-    var price = parseFloat(priceElement.innerText.replace("$", ""));
+    var price = parseFloat(priceElement.innerText.replace("GHS", ""));
     var quantity = quantityElement.value;
     total = total + price * quantity;
   }
   // if price contains some cents value;
   total = Math.round(total * 100) / 100;
 
-  document.getElementsByClassName("total-price")[0].innerText = "$" + total;
+  document.getElementsByClassName("total-price")[0].innerText = "GHS" + total;
 }
 const countries = [
   { name: "Ghana", code: "GH" },
